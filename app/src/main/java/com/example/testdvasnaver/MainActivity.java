@@ -310,8 +310,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 // 경도
                 o2 = (double) parse_coordinates.get(0);
 
-//                System.out.println("위도 : " + o1 + "\t경도 : " + o2 + "\t지역 : " + name);
-
                 // 마커 뿌리기
                 setMarker(new Marker(), o1, o2, name);
 
